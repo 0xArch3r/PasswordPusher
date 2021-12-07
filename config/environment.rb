@@ -78,5 +78,7 @@ end
 # variable.  e.g. For slack integrations that don't use pwpush.com
 SLACK_CLIENT_ID = ENV.fetch('SLACK_CLIENT_ID', 'pwpush: NotSetInEnv')
 
+FORCE_SSL = true
+
 # Initialize the Rails application.
 Rails.application.initialize!
